@@ -1,0 +1,5 @@
+alias vscode="open -a Visual\ Studio\ Code.app"
+alias aliases="vscode /Users/salomonebaquis/.oh-my-zsh/custom/aliases.zsh"
+alias standup="open https://www.google.com/url\?q\=https://us02web.zoom.us/j/243002548\?pwd%3DajFSNHhWTkRGSmVodnpQajBacXhLQT09\&sa\=D\&source\=calendar\&ust\=1686085360964919\&usg\=AOvVaw0FeosHhhZJttVav6XsMCk6"
+alias slate-web="cd /Users/salomonebaquis/code/slate-web/"
+alias zshrc="vscode /Users/salomonebaquis/.zshrc"

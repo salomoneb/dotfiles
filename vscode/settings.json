@@ -1,0 +1,18 @@
+{
+  "editor.fontFamily": "'Menlo'",
+  "editor.formatOnSave": true,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "workbench.startupEditor": "newUntitledFile",
+  "window.zoomLevel": 0,
+  "workbench.colorTheme": "Default Light+",
+  "files.trimTrailingWhitespace": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[handlebars]": {
+    "editor.formatOnSave": false
+  },
+  "html.format.enable": false
+}
