@@ -2,10 +2,6 @@
 [
   {
     "key": "shift+cmd+d",
-    "command": "-workbench.view.debug"
-  },
-  {
-    "key": "shift+cmd+d",
     "command": "editor.action.copyLinesDownAction",
     "when": "editorTextFocus && !editorReadonly"
   },
@@ -15,89 +11,49 @@
     "when": "editorTextFocus && !editorReadonly"
   },
   {
-    "key": "cmd+r",
-    "command": "-workbench.action.reloadWindow",
-    "when": "isDevelopment"
+    "key": "shift+cmd+d",
+    "command": "-workbench.view.debug",
+    "when": "viewContainer.workbench.view.debug.enabled"
   },
   {
-    "key": "cmd+y",
-    "command": "redo",
-    "when": "textInputFocus && !editorReadonly"
+    "key": "shift+alt+w",
+    "command": "editor.emmet.action.wrapWithAbbreviation"
   },
+  // cmd + number to jump to tabs
   {
-    "key": "shift+cmd+z",
-    "command": "-redo",
-    "when": "textInputFocus && !editorReadonly"
-  },
-  {
-    "key": "cmd+r",
-    "command": "workbench.action.gotoSymbol"
-  },
-  {
-    "key": "shift+cmd+o",
-    "command": "-workbench.action.gotoSymbol"
-  },
-  {
-    "key": "shift+cmd+l",
-    "command": "-editor.action.selectHighlights",
-    "when": "editorFocus"
-  },
-  {
-    "key": "shift+cmd+l",
-    "command": "editor.action.insertCursorAtEndOfEachLineSelected",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "shift+alt+i",
-    "command": "-editor.action.insertCursorAtEndOfEachLineSelected",
-    "when": "editorTextFocus"
-  },
-  { "key": "cmd+1", "command": "workbench.action.openEditorAtIndex1" },
-  { "key": "cmd+2", "command": "workbench.action.openEditorAtIndex2" },
-  { "key": "cmd+3", "command": "workbench.action.openEditorAtIndex3" },
-  { "key": "cmd+4", "command": "workbench.action.openEditorAtIndex4" },
-  { "key": "cmd+5", "command": "workbench.action.openEditorAtIndex5" },
-  { "key": "cmd+6", "command": "workbench.action.openEditorAtIndex6" },
-  { "key": "cmd+7", "command": "workbench.action.openEditorAtIndex7" },
-  { "key": "cmd+8", "command": "workbench.action.openEditorAtIndex8" },
-  {
-    "key": "cmd+9",
-    "command": "workbench.action.openEditorAtIndex9"
+    "key": "cmd+1",
+    "command": "workbench.action.openEditorAtIndex1"
   },
   {
     "key": "cmd+2",
-    "command": "-workbench.action.focusSecondEditorGroup"
-  },
-  {
-    "key": "cmd+1",
-    "command": "-workbench.action.focusFirstEditorGroup"
+    "command": "workbench.action.openEditorAtIndex2"
   },
   {
     "key": "cmd+3",
-    "command": "-workbench.action.focusThirdEditorGroup"
+    "command": "workbench.action.openEditorAtIndex3"
   },
   {
     "key": "cmd+4",
-    "command": "-workbench.action.focusFourthEditorGroup"
+    "command": "workbench.action.openEditorAtIndex4"
   },
   {
     "key": "cmd+5",
-    "command": "-workbench.action.focusFifthEditorGroup"
+    "command": "workbench.action.openEditorAtIndex5"
   },
   {
     "key": "cmd+6",
-    "command": "-workbench.action.focusSixthEditorGroup"
+    "command": "workbench.action.openEditorAtIndex6"
   },
   {
     "key": "cmd+7",
-    "command": "-workbench.action.focusSeventhEditorGroup"
+    "command": "workbench.action.openEditorAtIndex7"
   },
   {
     "key": "cmd+8",
-    "command": "-workbench.action.focusEighthEditorGroup"
+    "command": "workbench.action.openEditorAtIndex8"
   },
   {
     "key": "cmd+9",
-    "command": "-workbench.action.lastEditorInGroup"
+    "command": "workbench.action.openEditorAtIndex9"
   }
 ]
