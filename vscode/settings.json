@@ -5,14 +5,36 @@
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
   "workbench.startupEditor": "newUntitledFile",
-  "window.zoomLevel": 0,
   "workbench.colorTheme": "Default Light+",
   "files.trimTrailingWhitespace": true,
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "[handlebars]": {
     "editor.formatOnSave": false
   },
-  "html.format.enable": false
+  "html.format.enable": false,
+  "prettier.vueIndentScriptAndStyle": true,
+  "gitblame.inlineMessageEnabled": true,
+  "gitblame.inlineMessageFormat": "${author.name} @${committer.name} (${time.ago})",
+  "gitblame.statusBarMessageFormat": "${author.name} (${time.ago})",
+  "redhat.telemetry.enabled": false,
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.openRepositoryInParentFolders": "always",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "debug.node.autoAttach": "on"
 }
