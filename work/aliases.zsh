@@ -34,7 +34,7 @@ login() {
 }
 
 boxlogin () {
-	aws ssm start-session --target "$( aws ec2 describe-instances --filter "Name=tag:Name,Values=$1" "Name=instance-state-name,Values=running" --query 'Reservations[*].Instances[*].[InstanceId,LaunchTime] [] | reverse(sort_by(@, &[1]))[0] | [0]' --output text )"
+  aws ssm start-session --target "$( aws ec2 describe-instances --filter "Name=tag:Name,Values=$1" "Name=instance-state-name,Values=running" --query 'Reservations[*].Instances[*].[InstanceId,LaunchTime] [] | reverse(sort_by(@, &[1]))[0] | [0]' --output text )"
 }
 
 packages() {
