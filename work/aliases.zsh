@@ -19,6 +19,7 @@ alias co="git checkout"
 alias chrome-extensions="cd /Users/salomonebaquis/Library/Application\ Support/Google/Chrome/Profile\ 3/Extensions"
 
 # ONEPASS ALIASES
+# If you're trying to run "fab dev log_in", you'll need to prefix it - "opaws fab dev log_in"
 alias opaws="op run --env-file=$HOME/.aws/op-env-vars -- "
 alias opaws-debug="op run --no-masking --env-file=$HOME/.aws/op-env-vars -- "
 
